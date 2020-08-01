@@ -7,5 +7,5 @@ My implementation contains methods which Queue has to contain in default, that a
 <li><b>Dequeue</b> - returns and delete first element in queue</li>
 <li><b>Peek</b>    - just returns first element in queue without deleting</li>
 </ul>
-<p>The repostitory has two folders:<a href="https://github.com/vlemish/Queue/tree/master/QueryArray">QueryArray which contains implementation based on array</a>
+<p>The repostitory has two folders: <a href="https://github.com/vlemish/Queue/tree/master/QueryArray">QueryArray</a> - which contains implementation based on array
 and <a href="https://github.com/vlemish/Queue/tree/master/QueueList">QueueList</a> which implementation based on List.</p>
