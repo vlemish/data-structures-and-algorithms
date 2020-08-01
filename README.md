@@ -8,4 +8,4 @@ My implementation contains methods which Queue has to contain in default, that a
 <li><b>Peek</b>    - just returns first element in queue without deleting</li>
 </ul>
 <p>The repostitory has two folders: <a href="https://github.com/vlemish/Queue/tree/master/QueryArray">QueryArray</a> - which contains implementation based on array
-and <a href="https://github.com/vlemish/Queue/tree/master/QueueList">QueueList</a> which implementation based on List.</p>
+and <a href="https://github.com/vlemish/Queue/tree/master/QueueList">QueueList</a> - which implementation based on List.</p>
