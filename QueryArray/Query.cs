@@ -9,13 +9,16 @@ namespace Queue
     class Query<T> where T : IComparable
     {
         private T[] queries;
+
         private int index;
+
 
         public Query()
         {
             queries = new T[100];
             index = 0;
         }
+
 
         public T Dequeue()
         {
@@ -42,14 +45,14 @@ namespace Queue
 
         public T Peek()
         {
-            return queries[0];   
+            return queries[0];
         }
 
         private T[] ChangeSize(T[] array)
         {
             T[] newArray = new T[array.Length * 2];
 
-            for(int i = 0; i < array.Length; i++)
+            for (int i = 0; i < array.Length; i++)
             {
                 newArray[i] = array[i];
             }
@@ -66,6 +69,5 @@ namespace Queue
         }
 
         public int QuerySize { get { return queries.Length; } }
-
     }
 }

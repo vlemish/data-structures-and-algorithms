@@ -10,10 +10,12 @@ namespace Queue
     {
         private List<T> queues;
 
+
         public Queue()
         {
             queues = new List<T>();
         }
+
 
         public T Dequeue()
         {
@@ -35,7 +37,7 @@ namespace Queue
 
         public T Peek()
         {
-            return queues.Count==0 ? default(T) : queues.First();
+            return queues.Count == 0 ? default(T) : queues.First();
         }
     }
 }
