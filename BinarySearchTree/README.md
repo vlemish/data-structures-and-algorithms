@@ -2,18 +2,18 @@
 Binary search tree contains 8 methods to use the following data structure.
 To try out the project you can:
 
-![Example of downloading zip archive](/imgs/downloadZip.gif)
+![Example of downloading zip archive](BinarySearchTree/imgs/downloadZip.gif)
  or using git command prompt
  ```
  git-clone git@github.com:MdmaSteel/BinarySearchTree.git
  ```
  
- ![Example of downloading via command prompt](/imgs/downloadVIAGitClone.gif)
+ ![Example of downloading via command prompt](BinarySearchTree/imgs/downloadVIAGitClone.gif)
  
 # Example
 There are included tests that you can just run like below.
 
-![Example of program working](/imgs/exampleOfProgramWorking.gif)
+![Example of program working](BinarySearchTree/imgs/exampleOfProgramWorking.gif)
 
 # Methods
 
@@ -31,39 +31,39 @@ public void SomeMethod(string someString)
 }
 ```
 
-*For more details look at* [BinaryTree](/BinaryTree.cs) *class*
+*For more details look at* [BinaryTree](BinarySearchTree/BinaryTree.cs) *class*
 
 ## FindNode Method
 
 FindNode Method allows you to check is the binary tree contains the value you are looking for.
 
-*For more details look at* [BinaryTree](/BinaryTree.cs) *class*
+*For more details look at* [BinaryTree](BinarySearchTree/BinaryTree.cs) *class*
 
 ## Remove Method
 
 Remove Method allows you to remove value from the binary tree.
 
-*For more details look at* [BinaryTree](/BinaryTree.cs) *class*
+*For more details look at* [BinaryTree](BinarySearchTree/BinaryTree.cs) *class*
 
 
 ## GetMaxValue Method
 
 GetMaxValue method allows you to get the max value which binary tree contains.
 
-*For more details look at* [BinaryTree](/BinaryTree.cs) *class*
+*For more details look at* [BinaryTree](BinarySearchTree/BinaryTree.cs) *class*
 
 ## GetMinValue Method
 
 GetMinValue method allows you to get the min value which binary tree contains.
 
-*For more details look at* [BinaryTree](/BinaryTree.cs) *class*
+*For more details look at* [BinaryTree](BinarySearchTree/BinaryTree.cs) *class*
 
 ## GetMaxLevel Method
 
 GetMaxLevel method allows you to get the max value of a binary tree.
 **Note that one level is a full node**
 
-*For more details look at* [BinaryTree](/BinaryTree.cs) *class*
+*For more details look at* [BinaryTree](BinarySearchTree/BinaryTree.cs) *class*
 
 ## Print Method
 
@@ -71,11 +71,11 @@ The print method allows you to print your created binary tree.\
 There are two options to print.
 ```(if GetMaxLevel() > 7)``` -> will be printed horizontally.
 
-![BinaryTree Horizontal Print](/imgs/binaryTreeExample.jpg)
+![BinaryTree Horizontal Print](BinarySearchTree/imgs/binaryTreeExample.jpg)
 
 Otherwise will be printed vertically.
 
-![BinaryTree Vertical Print](/imgs/binaryTreeExample1.jpg).
+![BinaryTree Vertical Print](BinarySearchTree/imgs/binaryTreeExample1.jpg).
 
 
-*For more details look at* [BinaryTree](/BinaryTree.cs) *class*
+*For more details look at* [BinaryTree](BinarySearchTree/BinaryTree.cs) *class*
